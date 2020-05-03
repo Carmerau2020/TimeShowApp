@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Local Time";
+}
+
+<link href="~/Content/styles.css" rel="stylesheet" type="text/css" />
+
+<h3 class="center">@ViewBag.Message</h3>
+
+<link href="~/Models/Style.css" rel="stylesheet" type="text/css" />
+<div>
+    <script src="~/Scripts/dataSet.js" type="text/javascript"></script>
+    <ul id="clock">
+        <li id="sec"></li>
+        <li id="hour"></li>
+        <li id="min"></li>
+    </ul>
+</div>
+
+<div class="center">
+    <p><a class="btn btn-default btn-size" href="@Url.Action("ServerTime", "Home")">Server</a></p>
+</div>
