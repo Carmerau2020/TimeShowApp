@@ -8,15 +8,16 @@
     <div class="jumbotron">
         <div>
             <h2>Simple time clock</h2>
-            <p class="lead">Want to display the time for UTC server or your local computer? This application will allow you to do this :) Simply choose one of the options below and enjoy the traditional analog watch face</p>
-        </div>
+            <p class="lead">Want to display Coordinated Universal Time or your local computer one? </p>
+            <p class="lead">This application will allow you to do this. Simply choose one of the options below and enjoy the traditional analog watch face</p>
+</div>
         <div class="row">
 
             <div>
-                <p> <a class="btn btn-default btn-size " href="@Url.Action("LocalTime", "Home")">Client</a></p>
+                <p> <a class="btn btn-default btn-size " href="@Url.Action("LocalTime", "Home")">Local time</a></p>
             </div>
             <div>
-                <p><a class="btn btn-default btn-size" href="@Url.Action("ServerTime", "Home")">Server</a></p>
+                <p><a class="btn btn-default btn-size" href="@Url.Action("UTCTime", "Home")">UTC time</a></p>
             </div>
 
         </div>

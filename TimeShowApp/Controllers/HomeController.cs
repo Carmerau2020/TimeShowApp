@@ -22,9 +22,9 @@ namespace TimeShowApp.Controllers
             return View();
         }
 
-        public ActionResult ServerTime()
+        public ActionResult UTCTime()
         {
-            ViewBag.Message = "UTC server time is:";
+            ViewBag.Message = "Coordinated Universal Time is:";
 
             return View();
         }

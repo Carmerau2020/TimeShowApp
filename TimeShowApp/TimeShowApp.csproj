@@ -169,9 +169,9 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\LocalTime.cshtml" />
-    <Content Include="Views\Home\ServerTime.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Error\PageNotFound.cshtml" />
+    <Content Include="Views\Home\UTCTime.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
